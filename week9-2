@@ -1,0 +1,48 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int getNumber(),prodRandomNumber(),getUserGuess(),user_value,check,R_Number,range;
+
+
+int main(){
+	int life=3;
+	
+	getNumber();
+	
+	while(life != 0){
+		
+	if ( getUserGuess() == prodRandomNumber() && check == 1 ){
+		printf("Right guess");
+		
+	}	
+	else if(check != 1){ // checking the entered number is int or not
+		printf("You entered invalid number please try again");
+		life ++;
+	}
+	else{
+		printf("The number was %d Try again\n",prodRandomNumber() );	
+	}	
+	life--;	
+	}
+	
+}
+	getNumber(){
+		printf("Please write random number's generating range (0 - your value) : ");
+		scanf("%d", &range);
+		return range;
+	}
+
+	int	prodRandomNumber(){		
+	srand(time(NULL));	
+	R_Number = rand() % range;	
+	
+	}
+			
+	int getUserGuess(){
+	printf("Please enter your number : ");
+	check=scanf("%d",&user_value);
+	return user_value;
+}
+
+
