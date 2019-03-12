@@ -53,7 +53,7 @@ int main()
 {
 	
    int secim;
-   cout<<"1-10000 arasindaki mukemmel sayilari gormek icin (1)\nKendi girdiginiz asal sayinin mukemmel sayi karsiligi icin (2) yi tuslayiniz\n15. sıradaki mukemmel sayiyi gormek icin (3) u tuslayiniz"<<endl;
+   cout<<"1-10000 arasindaki mukemmel sayilari gormek icin (1)\nKendi girdiginiz asal sayinin mukemmel sayi karsiligi icin (2) yi tuslayiniz\n15. siradaki mukemmel sayiyi gormek icin (3) u tuslayiniz"<<endl;
    cin>>secim;
    
    if(secim == 1){
