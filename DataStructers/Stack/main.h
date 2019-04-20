@@ -2,8 +2,8 @@
 // Created by Sefa on 19.04.2019.
 //
 
-#ifndef LION_MAIN_H
-#define LION_MAIN_H
+#ifndef _MAIN_H
+#define _MAIN_H
 
 #include <iostream>
 
@@ -23,4 +23,4 @@ public:
     void info();
 };
 
-#endif //LION_MAIN_H
+#endif _MAIN_H
