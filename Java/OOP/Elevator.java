@@ -68,20 +68,14 @@ class Elevator{
     //Elevator move
     //------------------------------------------
     void elevatorUp(){
-        if (check()==true){
-            doorOpen();
-            elevatorLevel++;
-            doorClose();
-        }
+        if (check()==true)
+            elevatorLevel++;                   
         else
             System.out.println("BEEEEEEEEEEEP");
     }
     void elevatorDown(){
-        if (check()==true) {
-            doorOpen();
+        if (check()==true)   
             elevatorLevel--;
-            doorClose();
-        }
         else
             System.out.println("BEEEEEEEEEEEP");
     }
