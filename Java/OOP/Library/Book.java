@@ -11,7 +11,7 @@ public class Book {
         this.author = Author;
         this.shelfNumber = ShelfNumber;
 
-    };
+    }
 
     public void ShowBook() {
 
