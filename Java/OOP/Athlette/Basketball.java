@@ -13,7 +13,7 @@ public class Basketball extends Athlette{
 
     public void showStats(){
         System.out.println("////////////////////");
-        System.out.println("Muscles rate : "+muscles+"\nStamina rate : "+staminaRate+"\nJump height rate : "+jumpHeight+"Your accuraty is : "+Accuracy);
+        System.out.println("Muscles rate : "+muscles+"\nStamina rate : "+staminaRate+"\nJump height rate : "+jumpHeight+"Your accuracy is : "+Accuracy);
 
     }
 
