@@ -8,13 +8,6 @@ public class Main {
 
 	people1.add(2);
         people1.call(2);
-
-
-
-
-
-
-
-
+	    
     }
 }
