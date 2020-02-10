@@ -1,2 +1,2 @@
 # WhileStudent
-All of my codes while i was student
+All of my codes while i am student
