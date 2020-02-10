@@ -1,2 +1,2 @@
 # WhileStudent
-All of my school codes
+All of my codes while i was student
