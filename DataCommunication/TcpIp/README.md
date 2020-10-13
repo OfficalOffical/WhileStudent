@@ -2,6 +2,5 @@
 
 Inspired from : https://www.binarytides.com/winsock-socket-programming-tutorial/
 
-[1](https://i.imgur.com/gqXVJP5.png)
+[The Output](https://i.imgur.com/gqXVJP5.png)
 
-Output : [1]
