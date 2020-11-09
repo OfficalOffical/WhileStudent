@@ -7,6 +7,6 @@
 - Manchester
 - Differential Manchester
 - B8ZS
-- HDB3
+- HDB3 (Didn't finished)
 
 ### Generaly 1 represents +ve -1 represents -ve ###
