@@ -8,6 +8,6 @@ def unitstep_func(t):
 t = np.linspace(-2,2,1000)
 plt.plot(t,unitstep_func(t),'-b')
 plt.ylim((-2,2))
-plt.title("Torba")
+plt.title("Unit Step Function")
 plt.tight_layout()
 plt.show()
