@@ -9,7 +9,7 @@ alphabet = ['a','b','c','ç','d','e','f','g','ğ','h','ı','i','j','k','l','m','
             '(',')','/','+','-','*']
 
 
-#Deşifreleme fonksiyonu
+ #Deşifreleme fonksiyonu
 def decryption(cipher,a,b):
     ptArray = list(cipher)  #String'in her karakteri ayrılıp liste olusuturluyor.
 
